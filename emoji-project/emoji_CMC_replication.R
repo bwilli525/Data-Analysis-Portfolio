@@ -6,7 +6,7 @@
 # ============================================================================
 
 # Load data
-emoji_data <- read.csv("C:/Users/Brett/OneDrive - University of Connecticut/UCONN/Projects/COMPLETE/Emoji Study/emoji_survey_data_anonymized.csv")
+emoji_data <- read.csv("emoji_survey_data_anonymized.csv")
 
 # Select variables for CMC effectiveness model (no controls)
 vars_cmc <- c("CMC_Effectiveness_Composite",
